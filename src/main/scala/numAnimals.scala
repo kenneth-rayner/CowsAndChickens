@@ -10,9 +10,13 @@ object numAnimals extends App {
         (numChicks, numCows)
       }
       else {
-        ("No solution found")
+      ("No solution found")
       }
+
+
     }
+   else ("No solution found")
+
   }
   val numHeads = StdIn.readLine("Enter number of heads:").toInt
   val numLegs = StdIn.readLine("Enter number of legss:").toInt
