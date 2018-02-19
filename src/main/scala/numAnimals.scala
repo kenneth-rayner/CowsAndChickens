@@ -1,4 +1,5 @@
 import scala.io.StdIn
+
 object numAnimals extends App {
 
   def howMany(heads: Int, legs: Int): (Any) = {
